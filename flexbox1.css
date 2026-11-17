@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid #e0e0e0;
+}
+
+header, footer {
+    background-color: #ebe084;
+    padding: 20px;
+    min-height: 80px;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+    min-height: 250px;
+}
+
+article {
+    background-color: #ffffff;
+    flex: 3;
+    padding: 20px;
+}
+
+aside {
+    background-color: #ffc0cb;
+    flex: 1;
+    padding: 20px;
+}
+
+nav {
+    background-color: #00d2be;
+    flex: 1; 
+    padding: 20px;
+}

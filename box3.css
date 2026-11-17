@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 20px;
+}
+
+/* Pembungkus utama */
+.container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Jarak antar baris */
+}
+
+/* --- BARIS 1 (ATAS) --- */
+.row-top {
+    display: flex;
+    gap: 15px;
+    height: 75px;
+}
+
+.box-kuning {
+    width: 20%;
+    background-color: #ece64b; /* Kuning */
+    border: 1.5px solid #4a4817;
+}
+
+.box-oranye {
+    width: 80%;
+    background-color: #f46324; /* Oranye */
+    border: 1.5px solid #59240d;
+}
+
+/* --- BARIS 2 (TENGAH) --- */
+.row-middle {
+    display: flex;
+    gap: 15px;
+    height: 400px;
+}
+
+.box-hijau {
+    width: 20%;
+    background-color: #a9d98e;
+    border: 1.5px solid #3f5235;
+}
+
+.box-abu {
+    width: 60%;
+    background-color: #d3d6d9; /* Abu-abu muda */
+    border: 1.5px solid #525457;
+}
+
+.box-biru-muda {
+    width: 20%;
+    background-color: #4dd0f5; /* Biru muda / Cyan */
+    border: 1.5px solid #1b4d5c;
+}
+
+/* --- BARIS 3 (BAWAH) --- */
+.box-biru-tua {
+    width: 100%;
+    height: 65px;
+    background-color: #1c64f2; /* Biru tua */
+    border: 1.5px solid #0d2e70;
+}
